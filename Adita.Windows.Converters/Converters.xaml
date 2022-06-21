@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:c="clr-namespace:Adita.Windows.Converters">
+
+    <c:ArithmeticOperationConverter x:Key="ArithmeticOperationConverter"/>
+    <c:ArrayMultiValueConverter x:Key="ArrayMultiValueConverter"/>
+    <c:GreaterThanConverter x:Key="GreaterThanConverter"/>
+    <c:GreaterThanOrEqualConverter x:Key="GreaterThanOrEqualConverter"/>
+    <c:LessThanConverter x:Key="LessThanConverter"/>
+    <c:LessThanOrEqualConverter x:Key="LessThanOrEqualConverter"/>
+    <c:MultiplierMultiValueConverter x:Key="MultiplierMultiValueConverter"/>
+    <c:NullConverter x:Key="NullConverter"/>
+    <c:StringConcatenateConverter x:Key="StringConcatenateConverter"/>
+    <c:StringNullOrWhiteSpaceConverter x:Key="StringNullOrWhiteSpaceConverter"/>
+    <c:StringWhiteSpaceRemoverConverter x:Key="StringWhiteSpaceRemoverConverter"/>
+    <c:TypeConverter x:Key="TypeConverter"/>
+    <c:EqualityConverter x:Key="EqualityConverter"/>
+    <c:InequalityConverter x:Key="InequalityConverter"/>
+</ResourceDictionary>
