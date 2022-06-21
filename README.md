@@ -17,6 +17,7 @@ to use as application resource, just merge the Converters.xaml that located on r
 ```
 
 then you can use it as StaticResource everywhere on your project
+
 **Example**:
 ```
 <... Converter={StaticResource TheConverter, ConverterParameter=param} .../>
