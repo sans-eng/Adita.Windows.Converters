@@ -3,7 +3,7 @@ A .Net WPF converters
 
 ## How to use?
 
-to use as application resource, just merge the Converters.xaml that located on root project directory to your app.xaml:
+to use as application resources, just merge the Converters.xaml that located on root project directory to your app.xaml:
 ```
  <ResourceDictionary>
     <ResourceDictionary.MergedDictionaries>
